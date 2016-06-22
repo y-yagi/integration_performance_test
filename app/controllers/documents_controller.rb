@@ -1,7 +1,7 @@
 class DocumentsController < ApplicationController
   def index
     @documents = Document.all
-    render text: "yeehaw"
+    render plain: "yeehaw"
   end
 
   def show
